@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		708AB12E25848CDF00DE21B9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB93CF4258489CC0088B4AE /* CloudKit.framework */; };
 		BCAB531A25847AEE00562F4C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAB531925847AEE00562F4C /* CloudKit.framework */; };
 		BCB4D993257D65010010CD53 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4D992257D65010010CD53 /* Tests_iOS.swift */; };
 		BCB4D99E257D65010010CD53 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4D99D257D65010010CD53 /* Tests_macOS.swift */; };
@@ -20,7 +21,6 @@
 		BCB4D9A7257D65010010CD53 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB4D978257D65010010CD53 /* Persistence.swift */; };
 		BCB4D9A8257D65010010CD53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB4D979257D65010010CD53 /* Assets.xcassets */; };
 		BCB4D9A9257D65010010CD53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB4D979257D65010010CD53 /* Assets.xcassets */; };
-		BCB93CF5258489CC0088B4AE /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB93CF4258489CC0088B4AE /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB93CF5258489CC0088B4AE /* CloudKit.framework in Frameworks */,
+				708AB12E25848CDF00DE21B9 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +513,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.emilionicoli.LetterGame;
 				PRODUCT_NAME = LetterGame;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -536,6 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.emilionicoli.LetterGame;
 				PRODUCT_NAME = LetterGame;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
